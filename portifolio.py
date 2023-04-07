@@ -41,7 +41,7 @@ with tab1:
                """)
     
     col2.write("""
-               No mestrado tive primeiro contato com estatística e me apaixonei logo de cara. Sempre gostei de aprender novas coisas, temas 
+               No mestrado tive o primeiro contato mais aprofundado com estatística e me apaixonei logo de cara. Sempre gostei de aprender novas coisas, temas 
                e habilidades, e de maneira autodidata, com muita paciência, horas de dedicação e muito mais curiosidade, aprendi SPSS, e linguagens 
                de programação R, Python, SQL e ferramentas como Power BI/Excel. Sempre procurando aprimorar meus conhecimentos.
                """)
