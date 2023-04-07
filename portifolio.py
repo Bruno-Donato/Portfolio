@@ -28,6 +28,9 @@ with tab1:
     col1.write("")
     col1.write("")
     col1.image(image, caption='Eu felizão', width = 250)
+    
+    
+    col1.write("")
 
     col2.write("")
     col2.write("")
@@ -61,10 +64,15 @@ with tab1:
 
 
 with tab2:
-    with open("data/bruno_donato_ciencia_de_dados_CV.pdf", "rb") as pdf_file:
-        b64_pdf = base64.b64encode(pdf_file.read()).decode()
-        href = f'<a href="data:application/pdf;base64,{b64_pdf}" download="Bruno_Donato_Ciencia_de_Dados_CV.pdf">Download CV</a>'
-        st.markdown(href, unsafe_allow_html=True)
+    col1, col2, col3 = st.columns([.13, .10, 1])
+    with col1:
+        with open("data/bruno_donato_ciencia_de_dados_CV.pdf", "rb") as pdf_file:
+            b64_pdf = base64.b64encode(pdf_file.read()).decode()
+            href = f'<a href="data:application/pdf;base64,{b64_pdf}" download="Bruno_Donato_Ciencia_de_Dados_CV.pdf">Download CV</a>'
+            st.markdown(href, unsafe_allow_html=True)
+    
+    col2.markdown('[LinkedIn](https://www.linkedin.com/in/bruno-de-sousa-donato/)')
+    col3.markdown('[GitHub](https://github.com/Bruno-Donato)')
 
     st.header("**Experiência Profissional**")
     st.subheader("**_CIENTISTA DE DADOS - Autônomo (01/2022 - Atual)_**")
@@ -149,7 +157,7 @@ with tab2:
     st.subheader("")
     st.subheader("**_FISIOTERAPIA - PUCCAMP (01/2009 - 12/2013)_**")
     st.write("""
-             - Iniciação científica: coleta, análise de dados e produção científica em linha de pesquisa de variabilidade cardíaca
+             - Iniciação científica: coleta, análise de dados e produção científica em linha de pesquisa de variabilidade da frequência cardíaca
              - Monitor de disciplinar cinesioterapia, anatomia e neuroanatomia
     """)
 
