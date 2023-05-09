@@ -164,7 +164,7 @@ with tab2:
 with tab3:
     st.subheader("")
     col1, col2, col3, col4, col5 = st.columns([3, 0.5, 3, 0.5, 3])
-    col1.write("NLP | Webscraping")
+    col1.write("__NLP | Webscraping__")
     image1 = Image.open("data/o_mundo_assombrado.png")
     col1.image(image1, use_column_width=True)
     with col1:
@@ -173,7 +173,7 @@ with tab3:
         markdown1 = f'<a href="{link1}" target="_blank">{text1}</a>'
         st.markdown(markdown1, unsafe_allow_html=True)
     
-    col3.write("Análise estatística | Webscraping")
+    col3.write("__Análise Estatística | Webscraping__")
     image3 = Image.open("data/artigos_fisio.png")
     col3.image(image3, use_column_width=True)
     with col3:
@@ -182,7 +182,7 @@ with tab3:
         markdown3 = f'<a href="{link3}" target="_blank">{text3}</a>'
         st.markdown(markdown3, unsafe_allow_html=True)
     
-    col5.write("Modelos de classificação")
+    col5.write("__Modelos de Classificação__")
     image5 = Image.open("data/fraude2.jpg")
     col5.image(image5, use_column_width=True)
     with col5:
@@ -194,14 +194,23 @@ with tab3:
     st.write("")
     
     col6, col7, col8, col9, col10 = st.columns([3, 0.5, 3, 0.5, 3])
-    col6.write("Análise descritiva | NLP | Webapp deploy")
-    image6 = Image.open("data/dashboard_loja.png")
+    col6.write("__Análise Descritiva | NLP | Webapp Deploy__")
+    image6 = Image.open("data/dashboard_loja_.png")
     col6.image(image6, use_column_width=True)
     with col6:
         link6 = "https://bruno-donato-loja-virtual-instrumentos-musicais.streamlit.app/"
         text6 = "Dashboard loja virtual - Projeto Real"
         markdown6 = f'<a href="{link6}" target="_blank">{text6}</a>'
         st.markdown(markdown6, unsafe_allow_html=True)
+        
+    col8.write("__Modelos de Previsão__")
+    image8 = Image.open("data/gastos_saude.png")
+    col8.image(image8, use_column_width=True)
+    with col8:
+        link8 = "https://github.com/Bruno-Donato/desafio_gastos_saude/blob/main/regress_gastos_saude.ipynb"
+        text8 = "Previsão de gastos em saúde"
+        markdown8 = f'<a href="{link8}" target="_blank">{text8}</a>'
+        st.markdown(markdown8, unsafe_allow_html=True)
 
     
 with tab4:
