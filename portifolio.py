@@ -217,7 +217,7 @@ with tab3:
     col10.image(image10, use_column_width=True)
     with col10:
         link10 = "https://bruno-donato-cluster-ifood.streamlit.app/"
-        text10 = "Segmentação Clientes iFood"
+        text10 = "Segmentação Clientes ifood"
         markdown10 = f'<a href="{link10}" target="_blank">{text10}</a>'
         st.markdown(markdown10, unsafe_allow_html=True)
 
