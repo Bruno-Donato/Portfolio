@@ -211,6 +211,15 @@ with tab3:
         text8 = "Previsão de gastos em saúde"
         markdown8 = f'<a href="{link8}" target="_blank">{text8}</a>'
         st.markdown(markdown8, unsafe_allow_html=True)
+        
+    col10.write("__Modelos de Clusterização__")
+    image10 = Image.open("data/ifood.png")
+    col8.image(image10, use_column_width=True)
+    with col10:
+        link10 = "https://bruno-donato-cluster-ifood.streamlit.app/"
+        text10 = "Segmentação Clientes iFood"
+        markdown10 = f'<a href="{link10}" target="_blank">{text10}</a>'
+        st.markdown(markdown10, unsafe_allow_html=True)
 
     
 with tab4:
