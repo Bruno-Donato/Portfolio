@@ -195,7 +195,7 @@ with tab3:
     
     col6, col7, col8, col9, col10 = st.columns([3, 0.5, 3, 0.5, 3])
     col6.write("__Análise Descritiva | NLP | Webapp Deploy__")
-    image6 = Image.open("data/dashboard_loja_.png")
+    image6 = Image.open("data/dashboard_loja.png")
     col6.image(image6, use_column_width=True)
     with col6:
         link6 = "https://bruno-donato-loja-virtual-instrumentos-musicais.streamlit.app/"
