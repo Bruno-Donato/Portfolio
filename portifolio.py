@@ -214,7 +214,7 @@ with tab3:
         
     col10.write("__Modelos de Clusterização__")
     image10 = Image.open("data/ifood.png")
-    col8.image(image10, use_column_width=True)
+    col10.image(image10, use_column_width=True)
     with col10:
         link10 = "https://bruno-donato-cluster-ifood.streamlit.app/"
         text10 = "Segmentação Clientes iFood"
