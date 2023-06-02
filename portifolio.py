@@ -223,7 +223,7 @@ with tab3:
 
     
 with tab4:
-    col1, col2, col3 = st.columns([0.5, 3, 5])
+    col1, col2, col3, col4 = st.columns([0.25, 3, 5, 0.25])
     col2.subheader("O que é ciência de dados?")
     image = Image.open("data/zeca_dados.jpg")
     col2.image(image, use_column_width=True)
@@ -236,6 +236,26 @@ with tab4:
                """)
     with col3:
         link = "https://medium.com/p/9b71108b6060"
+        text = "Leia o post"
+        markdown = f'<a href="{link}" target="_blank">{text}</a>'
+        st.markdown(markdown, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([0.25, 8, 0.25])
+    col2.markdown("""<div style='text-align: center;'><hr style='border-top: 1px solid black'></div>""", unsafe_allow_html=True)
+    
+    col1, col2, col3, col4 = st.columns([0.25, 3, 5, 0.25])
+    col2.subheader("O que é ciência de dados II? ")
+    image = Image.open("data/terminator_captcha.png")
+    col2.image(image, use_column_width=True)
+    
+    col3.header("")
+    col3.header("")
+    col3.write("""
+               Continuação do post com objetivo explicar a ciência de dados de maneira acessível desmistificada, 
+               com foco naqueles que assim como eu querem ou estão fazendo transição de carreira
+               """)
+    with col3:
+        link = "https://medium.com/@bruno.sousadonato/que-diabos-é-ciência-de-dados-parte-2-aprendizado-supervisionado-9f8ad27b2f57"
         text = "Leia o post"
         markdown = f'<a href="{link}" target="_blank">{text}</a>'
         st.markdown(markdown, unsafe_allow_html=True)
