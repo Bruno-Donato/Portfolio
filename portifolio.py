@@ -232,7 +232,7 @@ with tab4:
     col3.header("")
     col3.write("""
                Primeiro de uma série e posts que tem como objetivo explicar a ciência de dados de maneira acessível 
-               e desmistificada, com foco naqueles que assim como eu querem ou estão fazendo transição de carreira
+               e desmistificada, com foco naqueles que assim como eu querem ou estão fazendo transição de carreira.
                """)
     with col3:
         link = "https://medium.com/p/9b71108b6060"
@@ -251,8 +251,9 @@ with tab4:
     col3.header("")
     col3.header("")
     col3.write("""
-               Continuação do post com objetivo explicar a ciência de dados de maneira acessível desmistificada, 
-               com foco naqueles que assim como eu querem ou estão fazendo transição de carreira
+               Continuação do post anterior com objetivo explicar a ciência de dados de maneira acessível desmistificada, 
+               com foco naqueles que assim como eu querem ou estão fazendo transição de carreira. Dessa vez abordaremos 
+               o aprendizado supervisionado.
                """)
     with col3:
         link = "https://medium.com/@bruno.sousadonato/que-diabos-é-ciência-de-dados-parte-2-aprendizado-supervisionado-9f8ad27b2f57"
