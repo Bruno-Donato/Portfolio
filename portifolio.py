@@ -261,3 +261,23 @@ with tab4:
         markdown = f'<a href="{link}" target="_blank">{text}</a>'
         st.markdown(markdown, unsafe_allow_html=True)
     
+    col1, col2, col3 = st.columns([0.25, 8, 0.25])
+    col2.markdown("""<div style='text-align: center;'><hr style='border-top: 1px solid black'></div>""", unsafe_allow_html=True)
+    
+    col1, col2, col3, col4 = st.columns([0.25, 3, 5, 0.25])
+    col2.subheader("O que é ciência de dados III? ")
+    image = Image.open("data/bolo_dados.png")
+    col2.image(image, use_column_width=True)
+    
+    col3.header("")
+    col3.header("")
+    col3.write("""
+               Terceira e ultima parte do post de introdução conceitual amigável à ciência de dados, de maneira acessível desmistificada, 
+               com foco naqueles que assim como eu querem ou estão fazendo transição de carreira. Nele abordamos o aprendizado não supervisionado.
+               """)
+    with col3:
+        link = "https://medium.com/@bruno.sousadonato/que-diabos-é-ciência-de-dados-parte-3-aprendizado-não-supervisionado-e5a5dd23a28d"
+        text = "Leia o post"
+        markdown = f'<a href="{link}" target="_blank">{text}</a>'
+        st.markdown(markdown, unsafe_allow_html=True)
+    
