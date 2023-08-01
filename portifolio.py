@@ -77,39 +77,28 @@ with tab2:
     st.header("**Experiência Profissional**")
     st.subheader("**_CIENTISTA DE DADOS - Autônomo (01/2022 - Atual)_**")
     st.write("""
-             Trabalho com empreendedores locais com análise de dados e business intelligence (métricas/KPIs), implementando pipelines e modelos, 
-             de regressão, classificação (KNN, SVM, Decision Tree/Árvore de decisão, Random Forest, XGBoost), clusterização (K-means), processamento 
-             de linguagem natural (NLP) utilizando webapps e dashboards para deployment de projetos. Usando criatividade para adequar o serviço ao 
-             perfil de cada cliente e tornar insights acessíveis e compreensíveis para orientar tomadas de decisões.
-                - Linguagens de programação: Python, R, SQL
-                - Bibliotecas analise e visualização: Pandas, Numpy, Matplotlib, Seaborn, Plotly
-                - Bibliotecas ML/IA: Scikit-Learn, PyCaret, SciPy, StatsModels, NLTK, Spacy, Gensim, REGEX, XGBoost, Optuna
-                - Bibliotecas deploy/web: MLFlow, Streamlit, Selenium e BeautilfulSoup
-                - Ferramentas: Power BI e Pacote Office
+             Trabalho junto a empreendedores locais com análise de dados e business intelligence abordando as principais métricas e KPIs,
+             implementando pipelines e modelos de machine learning, utilizando webapps e dashboards para deployment e acompanhamento de 
+             projetos. Usando criatividade para adequar o serviço ao perfil de cada cliente e tornar insights acessíveis e compreensíveis
+             para orientar tomadas de decisões.
              """)
     
     st.subheader("")
     st.subheader("**_CONSULTORIA ACADÊMICA - Autônomo (09/2019 - Atual)_**")
     st.write("""
-             - Elaboração de projetos e análise estatística
-             - Aulas e tutorias de fundamentos de pesquisa e da estatística para a saúde (prática baseada em evidência)
-
-             Conhecimento e experiencia em:
-                - Testes de correlação e regressão
-                - Modelos lineares e não-lineares
-                - Teste chi-quadrado e correlatos
-                - Testes paramétricos (teste-t, ANOVA) e seus correlatos não paramétricos.
+             Consultorias de trabalhos acadêmicos para elaboração e análise estatística exploratória/descritiva e inferencial. Aplicação e
+             conhecimento em testes de correlação, modelos lineares e não-lineares, teste chi-quadrado, testes paramétricos (teste-t, ANOVA)
+             e seus correlatos não paramétricos. Aulas e tutorias de fundamentos de estatística e pesquisa para área da saúde.
     """)
     
     st.subheader("")
     st.subheader("**_FISIOTERAPEUTA/CONSULTOR - SUS Paulínia/SP (06/2019 - 03/2022)_**")
     st.write("""
-            - Avaliação, diagnóstico e reabilitação de pacientes ortopédicos e dor crônica
-            - Desenvolvimento de projetos e trabalho com equipes multi e interdisciplinares do sistema de saúde público
-            - Responsável pela criação, gerenciamento e análise de banco de dados do serviço de reabilitação da cidade de Paulínia e seus usuários, 
-            orientando políticas públicas de saúde, promovendo direcionamento apropriado para atendimento e cuidado precoce (redução de 50% do tempo
-            de espera para avaliação/atendimento), através de processo de triagem e classificação, baseada em dados epidemiológicos e estatística 
-            local e implementação de atendimentos em grande escala (aumento de 20% de capacidade de atendimento).
+            Avaliação, diagnóstico e reabilitação de pacientes ortopédicos e dor crônica, e trabalho com equipes multi e interdisciplinares do
+            sistema de saúde público. Criação, gerenciamento e análise de banco de dados do serviço de reabilitação da cidade de Paulínia e
+            seus usuários, orientando políticas públicas de saúde, promovendo direcionamento apropriado para atendimento e cuidado precoce 
+            (redução de 50% do tempo de espera para avaliação/atendimento), através de processo de triagem e classificação, baseada em dados 
+            epidemiológicos e estatística local e implementação de atendimentos em grande escala (aumento de 20% de capacidade de atendimento).
     """)
     
     st.subheader("")
@@ -123,24 +112,22 @@ with tab2:
     st.subheader("")
     st.subheader("**_PESQUISADOR - UNICAMP (01/2017 - 08/2019)_**")
     st.write("""
-             - Atendimento e coleta de dados dos usuários do ambulatório de reabilitação do hospital de clínica
-             - Gerenciamento e análise (descritiva e inferencial) de dados do setor e projetos associados
-             - 2 anos de experiência em otimização de fluxo de pacientes, coleta e armazenamento de dados para fins de pesquisa clínica/acadêmica.
+            Atendimento e coleta de dados dos usuários do ambulatório de reabilitação do hospital de clínicas, gerenciamento e análise
+            (descritiva e inferencial) de dados do setor e projetos associados, com 2 anos de experiência em otimização de fluxo de pacientes,
+            coleta e armazenamento de dados para fins de pesquisa clínica/acadêmica.,
     """)
     
     st.header("")
     st.header("**Educação**")
-    st.subheader("**_CIÊNCIA DE DADOS & MACHINE LEARNING - TERA Ensino Superior (09/2022 - 07-2023)_**")
+    st.subheader("**_CIÊNCIA DE DADOS & MACHINE LEARNING - TERA Ensino Superior (09/2022 - 07/2023)_**")
     st.write("""
-             Aprofundamento em:
-            - Banco de dados
-            - Análise e visualização de dados
-            - Computação paralela e distribuída (Databricks/Spark)
-            - Pipelines
-            - Modelos supervisionados
-            - Modelos não supervisionados 
-            - Inteligência artificial (IA)
-            - Deployment de projetos
+            Aprofundamento em banco de dados, análise e visualização de dados (Pandas, Numpy, Matplotlib, Seaborn, Plotly, Yellowbrick),
+            computação paralela e distribuída (Databricks/Spark), pipelines, modelos supervisionados - previsão (regressão linear, Decision
+            Tree Regressor, Random Forest Regressor), classificação (regressão logística, KNN, SVM, Decision Tree/Árvore de decisão, Random 
+            Forest, XGBoost) séries temporais (AR, MA, ARMA, ARIMA), e não supervisionados - sistemas de recomendação e clusterização (K-means, 
+            DBSCAN, Kprototypes, Kmodes, Gaussian Mixture, Hierarchical/Agglomerative), ML/IA, deep learning/redes neurais e NLP (Scikit-learn, 
+            PyCaret, Scipy, StatsModels, Optuna, XGBoost, LightGBM, Keras, TensorFlow, Pytorch, Spacy, NLTK, Gensim, REGEX, HuggingFace/transformers), 
+            deploy de projetos (Streamlit, MLFow).
     """)
     
     st.subheader("")
