@@ -8,16 +8,11 @@ st.set_page_config(
     layout = "wide"
 )
 
-
 st.write("<div align='center'><h1><b>Bruno de Sousa Donato</b></h1></div>", unsafe_allow_html=True)
-
 st.markdown("""<div style='text-align: center;'><hr style='border-top: 5px solid black'></div>""", unsafe_allow_html=True)
-
 st.write("<div align='center'><h2><i>| Ciência de Dados | Machine Learning | IA | Análise de Dados | Python |</i></h2></div>", unsafe_allow_html=True)
-
 st.write("")
 st.write("")
-
 tab0, tab1, tab2, tab3, tab4 = st.tabs(["Início", "Sobre Mim", "Curriculo","Projetos", "Posts e Estudos"])
 
 with tab0:
@@ -27,23 +22,19 @@ with tab0:
     st.write("""
             Bem-vindos e muito obrigado pela visita! 
             """)
-    
     st.write("""
             Aqui, você encontrará soluções e serviços voltados para pequenos empreendedores, empresas, estudantes e qualquer pessoa que 
             necessite utilizar a tecnologia para resolver seus problemas. 
             """)
-    
     st.write("""
             Minha proposta é fazer a ponte entre a tecnologia e você, oferencendo uma gama abrangente de serviços, que vão desde tarefas simples 
             de abertura e manipulação de arquivos e trabalhos de média complexidade como análises, manipulação e visualização de dados, criação 
             e gerenciamento de bancos de dados e raspagem de dados (webscraping) para dar o suporte necessário que o seu negócio precisa. 
             """)
-    
     st.write("""
             Além disso, ofereço soluções mais avançadas, utilizando modelos de aprendizado de máquina, inteligência artificial, processamento 
             de linguagem natural e extração de informações, visão computacional e muito mais. 
             """)
-    
     st.write("""
             Seja qual for a sua necessidade, estou comprometido em utilizar a tecnologia para encontrar as melhores soluções e ajudá-lo a 
             alcançar seus objetivos. Estou ansioso para colaborar e transformar desafios em resultados reais e que façam a diferença!
@@ -57,10 +48,8 @@ with tab1:
     col1.write("")
     col1.write("")
     col1.image(image, caption='Eu felizão', width = 250)
-    
-    
+        
     col1.write("")
-
     col2.write("")
     col2.write("")
     col2.write("""
@@ -68,29 +57,24 @@ with tab1:
                na adolescência me tornei leitor assíduo de autores como Carl Sagan, Isaac Asimov, Frank Herbert, Bertrand Russel, Karl Popper, 
                e muitos outros que me direcionaram a vida acadêmica.
                """)
-    
     col2.write("""
                No mestrado tive o primeiro contato mais aprofundado com estatística e me apaixonei logo de cara. Sempre gostei de aprender novas coisas, temas 
                e habilidades, e de maneira autodidata, com muita paciência, horas de dedicação e muito mais curiosidade, aprendi SPSS, e linguagens 
                de programação R, Python, SQL e ferramentas como Power BI/Excel. Sempre procurando aprimorar meus conhecimentos.
                """)
-    
     col2.write("""
                Atuei como fisioterapeuta, atendendo diretamente pessoas e públicos de perfis diversos em diferentes instituições, por quase 10 anos 
                e decidi entrar no mundo dos dados para seguir meus objetivos de vida, pois procuro liberdade, possibilidade de crescimento profissional 
                e pessoal, e novos desafios.
                """)
-    
     col2.write("""
                Atualmente aprimorando meus conhecimentos em ciência de dados e machine learning na TERA, consequentemente e felizmente absorvendo 
                novos conhecimentos.
                """)           
-    
     col2.write("""
                Cachorreiro, amante da música, literatura, calistenia, queijos, cerveja, café e fotografia. Difundindo conhecimento e buscando 
                ser sempre melhor do que ontem.
                """)
-
 
 with tab2:
     col1, col2, col3 = st.columns([.13, .10, 1])
@@ -111,7 +95,6 @@ with tab2:
              projetos. Usando criatividade para adequar o serviço ao perfil de cada cliente e tornar insights acessíveis e compreensíveis
              para orientar tomadas de decisões.
              """)
-    
     st.subheader("")
     st.subheader("**_CONSULTORIA ACADÊMICA - Autônomo (09/2019 - Atual)_**")
     st.write("""
@@ -119,7 +102,6 @@ with tab2:
              conhecimento em testes de correlação, modelos lineares e não-lineares, teste chi-quadrado, testes paramétricos (teste-t, ANOVA)
              e seus correlatos não paramétricos. Aulas e tutorias de fundamentos de estatística e pesquisa para área da saúde.
     """)
-    
     st.subheader("")
     st.subheader("**_FISIOTERAPEUTA/CONSULTOR - SUS Paulínia/SP (06/2019 - 03/2022)_**")
     st.write("""
@@ -129,7 +111,6 @@ with tab2:
             (redução de 50% do tempo de espera para avaliação/atendimento), através de processo de triagem e classificação, baseada em dados 
             epidemiológicos e estatística local e implementação de atendimentos em grande escala (aumento de 20% de capacidade de atendimento).
     """)
-    
     st.subheader("")
     st.subheader("**_FISIOTERAPEUTA - Autônomo (01/2014 - 2022)_**")
     st.write("""
@@ -137,7 +118,6 @@ with tab2:
              - Experiência em reabilitação e cuidado ao idoso.
              - Atenção e manejo da dor em pacientes com dor crônica.
     """)
-    
     st.subheader("")
     st.subheader("**_PESQUISADOR - UNICAMP (01/2017 - 08/2019)_**")
     st.write("""
@@ -145,7 +125,6 @@ with tab2:
             (descritiva e inferencial) de dados do setor e projetos associados, com 2 anos de experiência em otimização de fluxo de pacientes,
             coleta e armazenamento de dados para fins de pesquisa clínica/acadêmica.,
     """)
-    
     st.header("")
     st.header("**Educação**")
     st.subheader("**_CIÊNCIA DE DADOS & MACHINE LEARNING - TERA Ensino Superior (09/2022 - 07/2023)_**")
@@ -158,7 +137,6 @@ with tab2:
             PyCaret, Scipy, StatsModels, Optuna, XGBoost, LightGBM, Keras, TensorFlow, Pytorch, Spacy, NLTK, Gensim, REGEX, HuggingFace/transformers), 
             deploy de projetos (Streamlit, MLFow).
     """)
-    
     st.subheader("")
     st.subheader("**_MESTRADO - UNICAMP (01/2017 - 08/2019)_**")
     st.write("""
@@ -169,7 +147,6 @@ with tab2:
              - Experiencia em coleta, gerenciamento, limpeza, análise e visualização de dados, estatística descritiva e testes de hipótese - correlações, 
              regressão linear/logística (simples/múltipla), modelos não lineares, teste chi-quadrado, paramétricos (teste t, ANOVA) e não paramétricos.
              """)
-    
     st.subheader("")
     st.subheader("**_FISIOTERAPIA - PUCCAMP (01/2009 - 12/2013)_**")
     st.write("""
