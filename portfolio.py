@@ -30,14 +30,18 @@ with tab0:
     
     st.write("""
             Aqui, você encontrará soluções e serviços voltados para pequenos empreendedores, empresas, estudantes e qualquer pessoa que 
-            necessite utilizar a tecnologia para resolver seus problemas. Minha proposta é oferecer uma gama abrangente de serviços que 
-            vão desde tarefas simples, como a abertura e manipulação de arquivos, trabalhos de média complexidade como análise, manipulação 
-            e visualização de dados, criação e gerenciamento de bancos de dados. 
+            necessite utilizar a tecnologia para resolver seus problemas. 
             """)
     
     st.write("""
-            Além disso, estou aqui para ajudá-lo a construir soluções mais avançadas, utilizando modelos de aprendizado de máquina, inteligência 
-            artificial, processamento de linguagem natural, visão computacional e muito mais. 
+            Minha proposta é fazer a ponte entre a tecnologia e você, oferencendo uma gama abrangente de serviços, que vão desde tarefas simples 
+            de abertura e manipulação de arquivos e trabalhos de média complexidade como análises, manipulação e visualização de dados, criação 
+            e gerenciamento de bancos de dados e raspagem de dados (webscraping) para dar o suporte necessário que o seu negócio precisa. 
+            """)
+    
+    st.write("""
+            Além disso, ofereço soluções mais avançadas, utilizando modelos de aprendizado de máquina, inteligência artificial, processamento 
+            de linguagem natural e extração de informações, visão computacional e muito mais. 
             """)
     
     st.write("""
