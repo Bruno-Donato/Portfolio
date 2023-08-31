@@ -77,15 +77,18 @@ with tab1:
                """)
 
 with tab2:
-    col1, col2, col3 = st.columns([.13, .10, 1])
-    with col1:
+    col1, col2, col3 = st.columns([.13, .11, 1])   
+    col1.markdown('<a href="https://www.linkedin.com/in/bruno-de-sousa-donato/" target="_blank">'
+            '<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">'
+            '</a>', unsafe_allow_html=True)
+    col2.markdown('<a href="https://github.com/Bruno-Donato" target="_blank">'
+            '<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank">'
+            '</a>', unsafe_allow_html=True)
+    with col3:
         with open("data/bruno_donato_ciencia_de_dados_CV.pdf", "rb") as pdf_file:
             b64_pdf = base64.b64encode(pdf_file.read()).decode()
             href = f'<a href="data:application/pdf;base64,{b64_pdf}" download="Bruno_Donato_Ciencia_de_Dados_CV.pdf">Download CV</a>'
             st.markdown(href, unsafe_allow_html=True)
-    
-    col2.markdown('[LinkedIn](https://www.linkedin.com/in/bruno-de-sousa-donato/)')
-    col3.markdown('[GitHub](https://github.com/Bruno-Donato)')
 
     st.header("**Experiência Profissional**")
     st.subheader("**_CIENTISTA DE DADOS - Autônomo (01/2022 - Atual)_**")
