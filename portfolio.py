@@ -13,12 +13,37 @@ st.write("<div align='center'><h1><b>Bruno de Sousa Donato</b></h1></div>", unsa
 
 st.markdown("""<div style='text-align: center;'><hr style='border-top: 5px solid black'></div>""", unsafe_allow_html=True)
 
-st.write("<div align='center'><h2><i>| Ciência de dados | Machine Learning | IA | Python | SQL |</i></h2></div>", unsafe_allow_html=True)
+st.write("<div align='center'><h2><i>| Ciência de Dados | Machine Learning | IA | Análise de Dados | Python |</i></h2></div>", unsafe_allow_html=True)
 
 st.write("")
 st.write("")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Sobre Mim", "Curriculo","Projetos Ciência de Dados", "Posts e Estudos"])
+tab0, tab1, tab2, tab3, tab4 = st.tabs(["Início", "Sobre Mim", "Curriculo","Projetos", "Posts e Estudos"])
+
+with tab0:
+    st.markdown("<h2 style='text-align: center;'>Soluções em Dados e Tecnologia </h2>", unsafe_allow_html=True)
+    st.write("""
+            """)
+    st.write("""
+            Bem-vindos e muito obrigado pela visita! 
+            """)
+    
+    st.write("""
+            Aqui, você encontrará soluções e serviços voltados para pequenos empreendedores, empresas, estudantes e qualquer pessoa que 
+            necessite utilizar a tecnologia para resolver seus problemas. Minha proposta é oferecer uma gama abrangente de serviços que 
+            vão desde tarefas simples, como a abertura e manipulação de arquivos, trabalhos de média complexidade como análise, manipulação 
+            e visualização de dados, criação e gerenciamento de bancos de dados. 
+            """)
+    
+    st.write("""
+            Além disso, estou aqui para ajudá-lo a construir soluções mais avançadas, utilizando modelos de aprendizado de máquina, inteligência 
+            artificial, processamento de linguagem natural, visão computacional e muito mais. 
+            """)
+    
+    st.write("""
+            Seja qual for a sua necessidade, estou comprometido em utilizar a tecnologia para encontrar as melhores soluções e ajudá-lo a 
+            alcançar seus objetivos. Estou ansioso para colaborar e transformar desafios em resultados reais e que façam a diferença!
+            """)
 
 with tab1:
     col1, col2 = st.columns([2, 5])
