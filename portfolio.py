@@ -68,8 +68,8 @@ with tab1:
                e pessoal, e novos desafios.
                """)
     col2.write("""
-               Atualmente aprimorando meus conhecimentos em ciência de dados e machine learning na TERA, consequentemente e felizmente absorvendo 
-               novos conhecimentos.
+               Formado em Ciência de dados & Machine Learning pela TERA (Ensino Superior) e atualmente aprimorando meus conhecimentos focando no aprofundamento
+               em visualização de dados, machine learning e deep learning e visão computacional.
                """)           
     col2.write("""
                Cachorreiro, amante da música, literatura, calistenia, queijos, cerveja, café e fotografia. Difundindo conhecimento e buscando 
