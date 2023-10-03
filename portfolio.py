@@ -204,7 +204,7 @@ with tab3:
     image8 = Image.open("data/gastos_saude.png")
     col8.image(image8, use_column_width=True)
     with col8:
-        link8 = "https://github.com/Bruno-Donato/desafio_gastos_saude/blob/main/regress_gastos_saude.ipynb"
+        link8 = "https://github.com/Bruno-Donato/desafio_gastos_saude/tree/main"
         text8 = "Previsão de gastos em saúde"
         markdown8 = f'<a href="{link8}" target="_blank">{text8}</a>'
         st.markdown(markdown8, unsafe_allow_html=True)
