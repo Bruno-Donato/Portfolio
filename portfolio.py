@@ -170,28 +170,28 @@ with tab3:
         markdown1 = f'<a href="{link1}" target="_blank">{text1}</a>'
         st.markdown(markdown1, unsafe_allow_html=True)
     
-    col3.write("__Análise Estatística | Webscraping__")
-    image3 = Image.open("data/artigos_fisio.png")
+    col3.write("__NLP Transformers(HuggingFace)__")
+    image3 = Image.open("data/huggingface_logo.png")
     col3.image(image3, use_column_width=True)
     with col3:
-        link3 = "https://bruno-donato-artigosfisio-pedro.streamlit.app/"
-        text3 = "Produção científica na fisioterapia - PEDro"
+        link3 = "https://github.com/Bruno-Donato/projeto_tera"
+        text3 = "Detecção de discurso de ódio - Twitter"
         markdown3 = f'<a href="{link3}" target="_blank">{text3}</a>'
         st.markdown(markdown3, unsafe_allow_html=True)
     
-    col5.write("__Modelos de Classificação__")
-    image5 = Image.open("data/fraude2.jpg")
+    col5.write("__Análise Estatística | Webscraping__")
+    image5 = Image.open("data/artigos_fisio.png")
     col5.image(image5, use_column_width=True)
     with col5:
-        link5 = "https://github.com/Bruno-Donato/classificacao_desafio_tera/blob/main/desafio_classificacao.ipynb"
-        text5 = "Detecção de Fraudes - Desafio TERA"
+        link5 = "https://bruno-donato-artigosfisio-pedro.streamlit.app/"
+        text5 = "Produção científica na fisioterapia - PEDro"
         markdown5 = f'<a href="{link5}" target="_blank">{text5}</a>'
         st.markdown(markdown5, unsafe_allow_html=True)
 
     st.write("")
     
     col6, col7, col8, col9, col10 = st.columns([3, 0.5, 3, 0.5, 3])
-    col6.write("__Análise Descritiva | NLP | Webapp Deploy__")
+    col6.write("__Análise Descritiva | Webapp Deploy__")
     image6 = Image.open("data/dashboard_loja.png")
     col6.image(image6, use_column_width=True)
     with col6:
